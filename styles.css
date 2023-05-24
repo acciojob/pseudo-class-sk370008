@@ -1,9 +1,11 @@
 /*  your css code here. If applicable */
 
-p span:first-child {
+.para::before {
+  content: 'Before element ';
   color: red;
 }
 
-p span:last-child {
+.para::after {
+  content: ' After element';
   color: red;
 }
